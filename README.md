@@ -1,4 +1,4 @@
-#tokenizer V1.0.0
+#Tokenizer V1.0.0
 
 This is a simple class that allows you to extract tokens from a string using regular expressions.
 Define your patterns using the add() method, and then extract the tokens with tokenize().
