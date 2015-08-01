@@ -1,4 +1,4 @@
-# tokenizer V.10
+# tokenizer V1.0.0
 
 ##Basic usage
 
