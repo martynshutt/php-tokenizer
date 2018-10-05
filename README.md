@@ -17,8 +17,8 @@ $tokenizer->add("NAME", "/^[a-zA-Z]+/");
 
 $input = '%var mynum = 99';
 
-while($result = $tokenizer->tokenize($input)){
-    
+while(($result = $tokenizer->tokenize($input)) !== false)
+{    
     echo $result."<br />";
     
 }
