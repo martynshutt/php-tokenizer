@@ -1,9 +1,10 @@
-#Tokenizer V1.0.0
+# Tokenizer V1.0.0
 
 This is a simple class that allows you to extract tokens from a string using regular expressions.
 Define your patterns using the add() method, and then extract the tokens with tokenize().
 The tokenizer class also generates an array of tokens, identifying the name and value of each token.
-##Basic usage
+
+### Basic usage
 
 ```php
 include 'tokenizer.php';
