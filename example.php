@@ -31,7 +31,7 @@ $tokenizer->add("NAME", "/^[a-zA-Z]+/");
 $input = '%var string = "I am a string" %var Num = 99'
         . 'if(string || num){ /*I am a comment...*/ }';
 
-while($result = $tokenizer->tokenize($input)){
+while(($result = $tokenizer->tokenize($input)) !== false){
     
     echo $result."<br />";
     
